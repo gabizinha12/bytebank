@@ -1,6 +1,6 @@
 package com.company;
 
-public class Gerente  extends Funcionario{
+public class Gerente  extends FuncionarioAutenticavel{
     public int getSenha() {
         return senha;
     }
