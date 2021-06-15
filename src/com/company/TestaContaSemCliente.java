@@ -2,7 +2,7 @@ package com.company;
 
 public class TestaContaSemCliente {
     public static void main(String[] args) {
-        Conta contaDaMarcela = new Conta();
+        Conta contaDaMarcela = new Conta(200,300);
         System.out.println(contaDaMarcela.getSaldo());
 
        // contaDaMarcela.titular = new Cliente(); nao acessar atributos diretamente
