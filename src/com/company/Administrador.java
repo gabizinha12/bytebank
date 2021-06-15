@@ -1,20 +1,23 @@
 package com.company;
 
-public class Administrador extends FuncionarioAutenticavel {
-    private int senha;
-
+public class Administrador extends Funcionario implements  Autenticavel {
+    private AutenticacaoUtil util;
+public Administrador() {
+    this.util = new AutenticacaoUtil();
+}
     @Override
     public double getBonificacao() {
         return 0;
     }
 
     public void setSenha(int senha) {
-        this.senha = senha;
+        this.util.setSenha(senha);
     }
 
     public boolean autentica(int senha) {
 
-        return this.senha == senha;
+      boolean auth =  this.util.autentica(senha);
+      return auth;
     }
 
 }

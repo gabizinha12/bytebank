@@ -1,21 +1,22 @@
 package com.company;
-
-public class Gerente  extends FuncionarioAutenticavel{
-    public int getSenha() {
-        return senha;
+// nao eh possivel usar herança para tudo, nao eh possivel herança multipla
+public class Gerente  extends Funcionario implements Autenticavel {
+    private AutenticacaoUtil util;
+    public Gerente() {
+        this.util = new AutenticacaoUtil();
     }
-
-    public void setSenha(int senha) {
-        this.senha = senha;
-    }
-
-    private int senha;
     public double getBonificacao() {
         return this.getBonificacao() + super.salario;
   }
-    public boolean autentica(int senha) {
-        return this.senha == senha;
+
+    @Override
+    public void setSenha(int senha) {
+        this.util.setSenha(senha);
     }
 
-
+    @Override
+    public boolean autentica(int senha) {
+    boolean auth =   this.util.autentica(senha);
+    return auth;
+    }
 }
