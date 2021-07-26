@@ -18,4 +18,19 @@ public class Cliente implements Autenticavel {
       boolean auth = this.util.autentica(senha);
       return auth;
     }
+
+	public void setProfissao(String string) {
+		
+		
+	}
+
+	public void setNome(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setCpf(String string) {
+		// TODO Auto-generated method stub
+		
+	}
 }

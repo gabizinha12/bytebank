@@ -1,4 +1,4 @@
-package com.company;
+package teste;
 
 public class TesteFuncionario {
 

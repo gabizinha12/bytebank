@@ -1,4 +1,8 @@
-package com.company;
+package teste;
+
+import com.company.ControleBonificacao;
+import com.company.EditorDeVideo;
+import com.company.Gerente;
 
 public class TesteReferencias {
     public static void main(String[] args) {

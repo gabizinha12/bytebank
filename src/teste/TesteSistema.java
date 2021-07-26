@@ -1,4 +1,7 @@
-package com.company;
+package teste;
+
+import com.company.Gerente;
+import com.company.SistemaInterno;
 
 public class TesteSistema {
     public static void main(String[] args) {

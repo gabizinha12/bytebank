@@ -1,0 +1,34 @@
+
+\
+java:S1854
+":Remove this useless assignment to local variable "idade5".(êù¬Äÿÿÿÿÿ8²şÇÈ©/
+\
+java:S1854	":Remove this useless assignment to local variable "idade4".(ƒ—³Üûÿÿÿÿ8´şÇÈ©/
+W
+java:S1854":Remove this useless assignment to local variable "idade3".(äüĞ–8µşÇÈ©/
+W
+java:S1854":Remove this useless assignment to local variable "idade2".(şÛ´ˆ8¶şÇÈ©/
+\
+java:S1854":Remove this useless assignment to local variable "idade1".(ÉŞÉ·ûÿÿÿÿ8¸şÇÈ©/
+Q
+java:S6212"/Declare this local variable with "var" instead.(ÉŞÉ·ûÿÿÿÿ8½şÇÈ©/
+L
+java:S6212"/Declare this local variable with "var" instead.(şÛ´ˆ8ÆşÇÈ©/
+L
+java:S6212"/Declare this local variable with "var" instead.(äüĞ–8ÈşÇÈ©/
+Q
+java:S6212	"/Declare this local variable with "var" instead.(ƒ—³Üûÿÿÿÿ8ÊşÇÈ©/
+Q
+java:S6212
+"/Declare this local variable with "var" instead.(êù¬Äÿÿÿÿÿ8ÌşÇÈ©/
+M
+java:S1481"+Remove this unused "idade1" local variable.(ÉŞÉ·ûÿÿÿÿ8ÏşÇÈ©/
+H
+java:S1481"+Remove this unused "idade2" local variable.(şÛ´ˆ8áşÇÈ©/
+H
+java:S1481"+Remove this unused "idade3" local variable.(äüĞ–8âşÇÈ©/
+M
+java:S1481	"+Remove this unused "idade4" local variable.(ƒ—³Üûÿÿÿÿ8äşÇÈ©/
+M
+java:S1481
+"+Remove this unused "idade5" local variable.(êù¬Äÿÿÿÿÿ8æşÇÈ©/

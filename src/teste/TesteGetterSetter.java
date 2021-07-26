@@ -1,4 +1,6 @@
-package com.company;
+package teste;
+
+import com.company.Conta;
 
 public class TesteGetterSetter {
     public static void main(String[] args) {
